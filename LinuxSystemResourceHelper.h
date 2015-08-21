@@ -11,7 +11,6 @@ private:
 public:
     LinuxSystemResourceHelper();
     int getCPUUsage() const;
-
     std::list<std::string> getDisks() const;
     int getDiskUsage(const std::string &name) const;
     int getMemoryUsage() const;

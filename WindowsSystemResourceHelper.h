@@ -6,9 +6,13 @@
 #include "TCHAR.h"
 #include "pdh.h"
 
-class WindowsSystemResourceHelper : public SystemResourceHelper<WindowsSystemResourceHelper>
+class WindowsSystemResourceHelper : public SystemResourceHelper
 {
+private:
+        WindowsSystemResourceHelper(const WindowsSystemResourceHelper & other) = delete;
+        WindowsSystemResourceHelper(WindowsSystemResourceHelper && other) = delete;
 public:
+        WindowsSystemResourceHelper();
 	int getCPUUsage() const;
 	std::list<std::string> getDisks() const;
 	int getDiskUsage(const std::string & name) const;
