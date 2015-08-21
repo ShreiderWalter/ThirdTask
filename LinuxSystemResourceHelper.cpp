@@ -1,7 +1,10 @@
 #include "LinuxSystemResourceHelper.h"
-
 #include <thread>
 #include <sys/statvfs.h>
+
+LinuxSystemResourceHelper::LinuxSystemResourceHelper()
+{
+}
 
 int LinuxSystemResourceHelper::getCPUUsage() const
 {

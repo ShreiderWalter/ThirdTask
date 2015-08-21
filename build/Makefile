@@ -179,6 +179,30 @@ LinuxSystemResourceHelper.cpp.s:
 	$(MAKE) -f CMakeFiles/SystemMonitor.dir/build.make CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.s
 .PHONY : LinuxSystemResourceHelper.cpp.s
 
+SystemResourceHelper.o: SystemResourceHelper.cpp.o
+.PHONY : SystemResourceHelper.o
+
+# target to build an object file
+SystemResourceHelper.cpp.o:
+	$(MAKE) -f CMakeFiles/SystemMonitor.dir/build.make CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o
+.PHONY : SystemResourceHelper.cpp.o
+
+SystemResourceHelper.i: SystemResourceHelper.cpp.i
+.PHONY : SystemResourceHelper.i
+
+# target to preprocess a source file
+SystemResourceHelper.cpp.i:
+	$(MAKE) -f CMakeFiles/SystemMonitor.dir/build.make CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.i
+.PHONY : SystemResourceHelper.cpp.i
+
+SystemResourceHelper.s: SystemResourceHelper.cpp.s
+.PHONY : SystemResourceHelper.s
+
+# target to generate assembly for a file
+SystemResourceHelper.cpp.s:
+	$(MAKE) -f CMakeFiles/SystemMonitor.dir/build.make CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.s
+.PHONY : SystemResourceHelper.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -219,6 +243,9 @@ help:
 	@echo "... LinuxSystemResourceHelper.o"
 	@echo "... LinuxSystemResourceHelper.i"
 	@echo "... LinuxSystemResourceHelper.s"
+	@echo "... SystemResourceHelper.o"
+	@echo "... SystemResourceHelper.i"
+	@echo "... SystemResourceHelper.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

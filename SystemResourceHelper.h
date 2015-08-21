@@ -8,36 +8,23 @@
 #include <sstream>
 #include <vector>
 
-template<typename T>
 class SystemResourceHelper
 {
 
-private:
-    static T * m_instance;
+protected:
+    SystemResourceHelper(){}
+    static SystemResourceHelper * m_instance;
 
 public:
-
+    SystemResourceHelper(const SystemResourceHelper & other) = delete;
+    SystemResourceHelper(SystemResourceHelper && other) = delete;
     virtual int getCPUUsage() const = 0;
     virtual std::list<std::string> getDisks() const = 0;
     virtual int getDiskUsage(const std::string & name) const = 0;
     virtual int getMemoryUsage() const = 0;
 
-    static T * getInstance();
+    static SystemResourceHelper * getInstance();
 
 };
-
-template<typename T>
-T * SystemResourceHelper<T>::m_instance;
-
-template<typename T>
-T * SystemResourceHelper<T>::getInstance()
-{
-    if(m_instance == nullptr)
-    {
-        m_instance = new T;
-    }
-    return m_instance;
-}
-
 
 #endif // SYSTEMRESOURCEHELPER_H

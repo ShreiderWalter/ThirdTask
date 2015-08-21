@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11   CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o CMakeFiles/SystemMonitor.dir/main.cpp.o  -o SystemMonitor -rdynamic 
+/usr/bin/c++    -std=c++11   CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o CMakeFiles/SystemMonitor.dir/main.cpp.o  -o SystemMonitor -rdynamic 

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/walter/C++/Task/LinuxSystemResourceHelper.cpp" "/home/walter/C++/Task/build/CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o"
+  "/home/walter/C++/Task/SystemResourceHelper.cpp" "/home/walter/C++/Task/build/CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o"
   "/home/walter/C++/Task/main.cpp" "/home/walter/C++/Task/build/CMakeFiles/SystemMonitor.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

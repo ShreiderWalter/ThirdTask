@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/walter/C++/Task/build
 CMakeFiles/SystemMonitor.dir/all:
 	$(MAKE) -f CMakeFiles/SystemMonitor.dir/build.make CMakeFiles/SystemMonitor.dir/depend
 	$(MAKE) -f CMakeFiles/SystemMonitor.dir/build.make CMakeFiles/SystemMonitor.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walter/C++/Task/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walter/C++/Task/build/CMakeFiles  1 2 3
 	@echo "Built target SystemMonitor"
 .PHONY : CMakeFiles/SystemMonitor.dir/all
 
@@ -69,7 +69,7 @@ all: CMakeFiles/SystemMonitor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SystemMonitor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/walter/C++/Task/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walter/C++/Task/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SystemMonitor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/walter/C++/Task/build/CMakeFiles 0
 .PHONY : CMakeFiles/SystemMonitor.dir/rule

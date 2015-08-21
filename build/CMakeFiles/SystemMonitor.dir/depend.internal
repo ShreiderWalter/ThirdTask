@@ -5,6 +5,10 @@ CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o
  /home/walter/C++/Task/LinuxSystemResourceHelper.cpp
  /home/walter/C++/Task/LinuxSystemResourceHelper.h
  /home/walter/C++/Task/SystemResourceHelper.h
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o
+ /home/walter/C++/Task/LinuxSystemResourceHelper.h
+ /home/walter/C++/Task/SystemResourceHelper.cpp
+ /home/walter/C++/Task/SystemResourceHelper.h
 CMakeFiles/SystemMonitor.dir/main.cpp.o
  /home/walter/C++/Task/LinuxSystemResourceHelper.h
  /home/walter/C++/Task/SystemResourceHelper.h

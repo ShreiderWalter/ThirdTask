@@ -5,6 +5,10 @@ CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o: ../LinuxSystemReso
 CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o: ../LinuxSystemResourceHelper.h
 CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o: ../SystemResourceHelper.h
 
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o: ../LinuxSystemResourceHelper.h
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o: ../SystemResourceHelper.cpp
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o: ../SystemResourceHelper.h
+
 CMakeFiles/SystemMonitor.dir/main.cpp.o: ../LinuxSystemResourceHelper.h
 CMakeFiles/SystemMonitor.dir/main.cpp.o: ../SystemResourceHelper.h
 CMakeFiles/SystemMonitor.dir/main.cpp.o: ../WindowsSystemResourceHelper.h

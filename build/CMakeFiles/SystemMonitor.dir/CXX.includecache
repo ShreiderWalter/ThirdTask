@@ -18,6 +18,12 @@ sys/statvfs.h
 SystemResourceHelper.h
 /home/walter/C++/Task/SystemResourceHelper.h
 
+/home/walter/C++/Task/SystemResourceHelper.cpp
+SystemResourceHelper.h
+/home/walter/C++/Task/SystemResourceHelper.h
+LinuxSystemResourceHelper.h
+/home/walter/C++/Task/LinuxSystemResourceHelper.h
+
 /home/walter/C++/Task/SystemResourceHelper.h
 memory
 -

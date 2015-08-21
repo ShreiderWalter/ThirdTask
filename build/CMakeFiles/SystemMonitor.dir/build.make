@@ -72,9 +72,32 @@ CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o.provides: CMakeFile
 
 CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o.provides.build: CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o
 
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o: CMakeFiles/SystemMonitor.dir/flags.make
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o: ../SystemResourceHelper.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walter/C++/Task/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o -c /home/walter/C++/Task/SystemResourceHelper.cpp
+
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/walter/C++/Task/SystemResourceHelper.cpp > CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.i
+
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/walter/C++/Task/SystemResourceHelper.cpp -o CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.s
+
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o.requires:
+.PHONY : CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o.requires
+
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o.provides: CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SystemMonitor.dir/build.make CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o.provides.build
+.PHONY : CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o.provides
+
+CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o.provides.build: CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o
+
 CMakeFiles/SystemMonitor.dir/main.cpp.o: CMakeFiles/SystemMonitor.dir/flags.make
 CMakeFiles/SystemMonitor.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walter/C++/Task/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walter/C++/Task/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/SystemMonitor.dir/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SystemMonitor.dir/main.cpp.o -c /home/walter/C++/Task/main.cpp
 
@@ -98,12 +121,14 @@ CMakeFiles/SystemMonitor.dir/main.cpp.o.provides.build: CMakeFiles/SystemMonitor
 # Object files for target SystemMonitor
 SystemMonitor_OBJECTS = \
 "CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o" \
+"CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o" \
 "CMakeFiles/SystemMonitor.dir/main.cpp.o"
 
 # External object files for target SystemMonitor
 SystemMonitor_EXTERNAL_OBJECTS =
 
 SystemMonitor: CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o
+SystemMonitor: CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o
 SystemMonitor: CMakeFiles/SystemMonitor.dir/main.cpp.o
 SystemMonitor: CMakeFiles/SystemMonitor.dir/build.make
 SystemMonitor: CMakeFiles/SystemMonitor.dir/link.txt
@@ -115,6 +140,7 @@ CMakeFiles/SystemMonitor.dir/build: SystemMonitor
 .PHONY : CMakeFiles/SystemMonitor.dir/build
 
 CMakeFiles/SystemMonitor.dir/requires: CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o.requires
+CMakeFiles/SystemMonitor.dir/requires: CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o.requires
 CMakeFiles/SystemMonitor.dir/requires: CMakeFiles/SystemMonitor.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/SystemMonitor.dir/requires
 

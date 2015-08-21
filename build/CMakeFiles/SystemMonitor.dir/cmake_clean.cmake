@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SystemMonitor.dir/LinuxSystemResourceHelper.cpp.o"
+  "CMakeFiles/SystemMonitor.dir/SystemResourceHelper.cpp.o"
   "CMakeFiles/SystemMonitor.dir/main.cpp.o"
   "SystemMonitor.pdb"
   "SystemMonitor"

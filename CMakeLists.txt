@@ -23,6 +23,7 @@ if(UNIX)
 
     set (SOURCES
     "LinuxSystemResourceHelper.cpp"
+    "SystemResourceHelper.cpp"
     "main.cpp"
     )
 else()
@@ -33,6 +34,7 @@ else()
 
     set (SOURCES
     "WindowsSystemResourceHelper.cpp"
+    "SystemResourceHelper.cpp"
     "main.cpp"
     )
 endif()
